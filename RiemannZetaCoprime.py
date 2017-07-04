@@ -1,4 +1,4 @@
-#coprime
+#Exprimentally calculates the Riemann Zeta function at 3 and 4 using Eulers coprime conjecture 
 from math import gcd as bltin_gcd
 from random import randint
 
