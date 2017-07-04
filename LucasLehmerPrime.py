@@ -14,3 +14,5 @@ def lp(p):
         return True
     return False
     print(l)
+
+print(lp(32))
