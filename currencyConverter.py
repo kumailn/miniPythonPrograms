@@ -11,4 +11,7 @@ def toCAD(a):
     #Converts USD to CAD
     return(cc.convert("USD", "CAD", Decimal(a)))
 
+def toEUR(a):
+    return(cc.convert("CAD", "EUR", Decimal(a)))
+
 print(toUSD(170))
